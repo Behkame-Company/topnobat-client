@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: iransans;
+  outline: none;
+}
+
+.swal2-popup {
+  font-family: iransans;
+}
+ 
+#__nuxt {
+  @apply overflow-x-hidden flex flex-col justify-start items-start bg-slate-100;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+.text-sm {
+  line-height: 1.5rem;
+}
+
+.fade-enter-active {
+  transition: all 0.3s;
+}
+
+.fade-leave-active {
+  transition: all 0s;
+}
+
+.fade-enter-from {
+  opacity: 0;
+}
+
+.fade-leave-to {
+  display: none;
+}
